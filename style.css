@@ -90,6 +90,20 @@
 .content-three{
     margin-top: 24px;
 }
+.content-four{
+    width: calc(199.75rem + 1rem * 2 - 0rem);    
+    margin-top: 34px;
+}
+.content-five{
+    margin-top: 34px;
+    padding: 0px 19px;
+    border-right: 1px solid #808080;
+    width: calc(99.75rem + 1rem * 2 - 0rem);
+}
+.content-six{
+    margin-top: 34px;
+    padding: 0px 18px;
+}
 .border-right{
     border-right: 1px solid #808080;
     padding-right: 19px;
@@ -168,4 +182,20 @@
 
 .elmundo-links-item li {
     background-color: pink;
+}
+
+.content-title{
+    text-transform: uppercase;
+    font-family: "Arial";
+    font-size: 15px;
+    font-weight: bold;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    position: absolute;
+    margin-top: 3px;
+}
+
+.second-column{
+    margin-top:40px;
 }
