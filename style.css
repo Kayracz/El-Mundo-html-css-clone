@@ -1,3 +1,6 @@
+body {
+    width: 100%;
+}
 .date{
     font-size: 14px;
     position: relative;
@@ -64,6 +67,7 @@
     align-items: center;
     margin: 14px 0px;
     padding: 10px;
+    flex-wrap: wrap;
 }
 .nav-bar a {
     padding: 0px 13px;
@@ -77,6 +81,7 @@
     display: flex;
     justify-content: center;
     margin: 38px 0px;
+    padding: 0px 46px;
 }
 .blue-text{
    color:#2e6d9d;
@@ -226,6 +231,7 @@
 .nav-bar-otherpage{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     align-items: center;
     margin-top: 20px;
 }
@@ -309,4 +315,14 @@
     line-height: 1.5rem;
     margin-bottom: 15px;
     margin-top: 30px;
+}
+
+
+  @media only screen and (max-width: 816px) {
+	.content {
+		flex-wrap: wrap;
+	}
+    .ads img{
+        width: 100%;
+    }
 }
