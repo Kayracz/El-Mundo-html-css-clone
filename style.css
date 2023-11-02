@@ -325,4 +325,7 @@ body {
     .ads img{
         width: 100%;
     }
+   .content-otherpage{
+    flex-direction: column;
+   }
 }
